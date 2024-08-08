@@ -29,13 +29,14 @@
 }
 
 .header_fourth .menu-blue .home_blanco {
-    position: absolute;
+    position: absolute !important;
     padding-top: 15px;
     z-index: 999;
     float: right !important;
     padding-left: 0px !important;
     padding-right: 20px !important;
     left:40px;
+   
 }
 
 .header_fourth .menu-blue .home_blanco .home-white {
@@ -46,8 +47,6 @@
 .header_fourth .menu-blue .home_blanco .home-white:hover {
     opacity: .5;
 }
-
-
 
 .header_fourth .menu-blue #tec-cln {
     position: relative !important;
@@ -104,15 +103,6 @@ a.dashicons-admin-home {
     margin-left: 5px;
 }
 
-
-/*Aqui se modifica el revolution slider*/
-
-.revolution_slider {
-    position: relative !important;
-    display: block !important;
-    width: 100% !important;
-    /* margin-top: 115px !important; */
-}
 
 img {
     height: auto;
@@ -234,6 +224,7 @@ width: 400px !important; */
     text-align: center !important;
     padding: 0px 0px 0px 0px;
     position: relative;
+    
 }
 /* El menu de las redes sociales */
 
@@ -786,18 +777,7 @@ nav.navigation.pagination {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
-    /* Iniciamos con los menus */
-    /* .header_second,
-    .header_third,
-    .page .colophon,
-    .main-footer {
-        overflow-x: hidden;
-        max-width: 992px !important;
-        overflow-y: hidden;
-    }
-    .header_fourth {
-        max-width: 992px !important;
-    } */
+    
     .header_third {
         max-width: 100% !important;
     }
@@ -2283,12 +2263,19 @@ nav.navigation.pagination {
   }
   
   .navbar-toggle {
-    position: absolute;
-    left: 50%;
+    position: relative;
+    top: 10px;
+    left: 20px;
     transform: translateX(-50%);
   } 
 
   /* Estilos para el botón del menú hamburguesa cuando está activo */
   .navbar-toggle.collapsed .glyphicon-menu-hamburger {
     color: #fff; 
+  }
+
+  .navbar-brand {
+    position: relative;
+    top: 10px;
+    left: 20px;
   }
