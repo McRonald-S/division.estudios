@@ -14,7 +14,7 @@
 
 
 .header_fourth .logo-tecnm-blanco {
-    position: absolute !important;
+    position: fixed !important;
     float: left !important;
     visibility: hidden;
     z-index: 999 !important;
@@ -2276,6 +2276,7 @@ nav.navigation.pagination {
 
   .navbar-brand {
     position: relative;
-    top: 10px;
+    top: 6px;
     left: 20px;
+    transform: translateX(-50%);
   }
