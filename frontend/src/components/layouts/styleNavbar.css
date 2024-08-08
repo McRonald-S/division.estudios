@@ -631,7 +631,7 @@ nav.navigation.pagination {
 /* Responsivo */
 
 @media only screen and (max-width: 575.98px) {
-    /* Iniciamos con los menus */
+    
     body {
         padding-top: 110px !important;
     }
@@ -645,15 +645,7 @@ nav.navigation.pagination {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-    /* .header_second,
-    .header_third,
-    .header_fourth,
-    .page .colophon,
-    .main-footer {
-        overflow-x: hidden;
-        max-width: 100vw;
-        overflow-y: hidden;
-    } */
+    
     #mega-menu-wrap-top_menu_first #mega-menu-top_menu_first.mega-no-js li.mega-menu-item:hover>ul.mega-sub-menu,
     #mega-menu-wrap-top_menu_first #mega-menu-top_menu_first.mega-no-js li.mega-menu-item:focus>ul.mega-sub-menu,
     #mega-menu-wrap-top_menu_first #mega-menu-top_menu_first li.mega-menu-item.mega-toggle-on>ul.mega-sub-menu {
@@ -718,9 +710,7 @@ nav.navigation.pagination {
     .header_second_logos .buscador_home:hover>.texto-buscador {
         width: 200px !important;
     }
-    /* Continuamos con el slider */
-    /* Container de noticias */
-    /* Container de Redes Sociales */
+    
     .container-fb {
         width: unset !important;
         margin: 5px 0px 5px 0px;
@@ -958,18 +948,7 @@ nav.navigation.pagination {
 /* Para Tablets  */
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-    /* Iniciamos con los menus */
-    /* .header_second,
-    .header_third,
-    .page .colophon,
-    .main-footer {
-        overflow-x: hidden;
-        max-width: 992px !important;
-        overflow-y: hidden;
-    }
-    .header_fourth {
-        max-width: 992px !important;
-    } */
+    
     .header_third {
         max-width: 100% !important;
     }
@@ -1043,9 +1022,7 @@ nav.navigation.pagination {
         margin-left: 350px !important;
         padding-top: 10px !important;
     }
-    /* Continuamos con el slider */
-    /* Container de noticias */
-    /* Container de Redes Sociales */
+    
     .container-fb {
         width: 50% !important;
         margin-bottom: 6px !important;
@@ -1077,7 +1054,6 @@ nav.navigation.pagination {
         text-align: right !important;
     }
 }
-/* Para tablets mas grandes y computadoras pequeñas*/
 
 @media only screen and (min-width: 992px) and (max-width: 1100px) {
     /* Iniciamos con los menus */
@@ -1234,7 +1210,7 @@ nav.navigation.pagination {
 
 }
     
-/* Para la orientación horizontal del iPad Pro (1024px de ancho) */
+/* Landscape iPad Pro (1024px de ancho) */
 @media only screen and (min-width: 992px) and (max-width: 1366px) {
     /* Iniciamos con los menus */
     .header_fourth .logo-tecnm-blanco {
@@ -2306,6 +2282,12 @@ nav.navigation.pagination {
     color: #fff; 
   }
   
+  .navbar-toggle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  } 
+
   /* Estilos para el botón del menú hamburguesa cuando está activo */
   .navbar-toggle.collapsed .glyphicon-menu-hamburger {
     color: #fff; 
