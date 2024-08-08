@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class=""><a href="/frontend/public/index.html" style="text-decoration:none;">Inicio</a></li>
+                <li class=""><a href="/index.html" style="text-decoration:none;">Inicio</a></li>
                 
                 <li><a href="/frontend/src/components/views/Titulacion/index.html" style="text-decoration:none;">Titulación</a></li>
                 <li><a href="" style="text-decoration:none;">Inglés</a></li>
